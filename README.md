@@ -1,4 +1,4 @@
-# Movie Show-time finder
+# Movie Show-Time Finder
 Ashton Sims(Group Co-Ordinator),
 Chowdhury Mobin,
 Karimi Brown,
