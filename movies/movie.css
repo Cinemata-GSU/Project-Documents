@@ -1,0 +1,100 @@
+*{
+
+   font-family: Roboto;
+   color: #fff;
+   font-size: 16px;
+   background: rgb(0, 0, 0);
+   
+
+}
+
+container header{
+
+   color: white;
+}
+
+.logo{
+
+   margin-top: 10px;
+   width: 130px;
+   height: 130px;
+
+}
+
+.movie{
+
+   margin: 0%;
+
+}
+
+.left{
+
+   margin-left: 20px;
+   color: rgb(255, 255, 255);
+
+}
+
+.casting img {
+
+   height: 50px;
+   width: 50px;
+   border-radius: 50px;
+   padding: 2px;
+
+}
+
+.left a{
+
+   text-decoration: none;
+   padding: 10px;
+   color: rgb(255, 255, 255);
+   background: rgb(255, 0, 0);
+   border-radius: 50px;
+   text-decoration: none;
+
+}
+
+.left a:hover{
+
+   color: rgb(0, 4, 255);
+   text-decoration: none;
+   
+}
+
+.poster{
+
+   margin-left: 150px;
+   margin-top: 20px;
+   float: right;
+   height: 320px;
+   width: 280px;
+   box-shadow: 0px 0px 1px 3px;
+   float: right;
+   transition: 1s;
+   cursor: pointer;
+
+}
+
+.poster:hover{
+
+   transform: ease-in-out;
+   width: 340px;
+   height: 320px;
+
+}
+
+.series img{
+
+   height: 220px;
+   width: 190px;
+   padding: 10px;
+   cursor: pointer;
+   transition: 0.5s;
+   
+}
+
+.series img:hover {
+
+   transform: translateY(-15px);
+
+}
