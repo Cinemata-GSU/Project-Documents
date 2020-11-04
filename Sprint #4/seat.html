@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="seat.css">
+   <title>Cinemata</title>
+</head>
+<body>
+   <div class="movie-container">
+      <label for=" ">Movie:</label>
+      <select id="movie">
+         <option>Slect a movie.</option>
+         <option value="11">Joker</option>
+         <option value="11">Batman Begins</option>
+         <option value="11">The Dark Knight</option>
+         <option value="13">The Dark Knight Rises</option>
+         <option value="13">Ironman</option>
+         <option value="13">Ironman 2</option>
+         <option value="15">Ironman 3</option>
+      </select>
+   </div>
+   <div>
+      <ul class="option">
+         <li>
+            <div class="seat"></div>
+            <small>Available</small>
+         </li>
+      </ul>
+      
+      <ul class="option">
+         <li>
+            <div class="seat closed"></div>
+            <small>Closed</small>
+         </li>
+      </ul>
+
+      <ul class="option">
+         <li>
+            <div class="seat selected"></div>
+            <small>Selected</small>
+         </li>
+      </ul>
+   </div>
+   <div class="container">
+      
+      <div class="screen">Movie Screen</div>
+
+      <div class="row">
+         <div class="seat"></div>
+         <div class="seat"></div>
+         <div class="seat"></div>
+         <div class="seat"></div>
+         <div class="seat"></div>
+         <div class="seat closed"></div>
+         <div class="seat closed"></div>
+         <div class="seat closed"></div>
+         <div class="seat"></div>
+         <div class="seat"></div>
+         <div class="seat"></div>
+      </div>
+
+      <div class="row">
+         <div class="seat closed"></div>
+         <div class="seat closed"></div>
+         <div class="seat closed"></div>
+         <div class="seat"></div>
+         <div class="seat"></div>
+         <div class="seat"></div>
+         <div class="seat"></div>
+         <div class="seat"></div>
+         <div class="seat"></div>
+         <div class="seat"></div>
+         <div class="seat"></div>
+      </div>
+
+      <div class="row">
+         <div class="seat"></div>
+         <div class="seat"></div>
+         <div class="seat"></div>
+         <div class="seat closed"></div>
+         <div class="seat closed"></div>
+         <div class="seat closed"></div>
+         <div class="seat"></div>
+         <div class="seat"></div>
+         <div class="seat"></div>
+         <div class="seat"></div>
+         <div class="seat"></div>
+      </div>
+
+      <div class="row">
+         <div class="seat"></div>
+         <div class="seat"></div>
+         <div class="seat"></div>
+         <div class="seat"></div>
+         <div class="seat"></div>
+         <div class="seat"></div>
+         <div class="seat"></div>
+         <div class="seat"></div>
+         <div class="seat"></div>
+         <div class="seat"></div>
+         <div class="seat"></div>
+      </div>
+
+      <div class="row">
+
+         <div class="seat"></div>
+         <div class="seat"></div>
+         <div class="seat"></div>
+         <div class="seat"></div>
+         <div class="seat"></div>
+         <div class="seat"></div>
+         <div class="seat"></div>
+         <div class="seat"></div>
+         <div class="seat closed"></div>
+         <div class="seat closed"></div>
+         <div class="seat closed"></div>
+
+      </div>
+
+   </div>
+
+   <p class="text">
+
+      Number of seats: <span id="count">0</span>
+      <br>
+
+      Total price: $ <span id="total">0</span>
+
+   </p>
+
+   
+   <a href="payment.html"><input type="button" class="button" value="Pay Now"> </a>
+
+   <script src="seat.js"></script>
+
+</body>
+</html>
